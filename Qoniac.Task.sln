@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6EB49764-8A05-4F15-8041-130FA8D3CE7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qoniac.API", "Qoniac.API\Qoniac.API.csproj", "{F3084179-3E97-45AC-BE2F-E66E04176C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qoniac.EndPoints", "Qoniac.EndPoints\Qoniac.EndPoints.csproj", "{91E5C01C-EBE3-4185-A66A-2CF6DC54B8A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3084179-3E97-45AC-BE2F-E66E04176C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3084179-3E97-45AC-BE2F-E66E04176C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3084179-3E97-45AC-BE2F-E66E04176C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3084179-3E97-45AC-BE2F-E66E04176C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E5C01C-EBE3-4185-A66A-2CF6DC54B8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E5C01C-EBE3-4185-A66A-2CF6DC54B8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E5C01C-EBE3-4185-A66A-2CF6DC54B8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E5C01C-EBE3-4185-A66A-2CF6DC54B8A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3084179-3E97-45AC-BE2F-E66E04176C0C} = {6EB49764-8A05-4F15-8041-130FA8D3CE7A}
+		{91E5C01C-EBE3-4185-A66A-2CF6DC54B8A2} = {6EB49764-8A05-4F15-8041-130FA8D3CE7A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {507A3C67-29D5-4903-8C43-E038C245CF31}
+	EndGlobalSection
+EndGlobal
